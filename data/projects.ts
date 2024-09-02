@@ -1,0 +1,62 @@
+export const projects = [
+  {
+    num: "01",
+    category: "Fullstack",
+    title: "Project 1",
+    description:
+      "Kelebogile Doctor Modisane Tutor and Mentor Organization provides a wide range of modules to cater to the diverse needs of students.",
+    stack: [
+      { name: "HTML 5" },
+      { name: "CSS3" },
+      { name: "JavaScript" },
+      { name: "Tailwind CSS" },
+      { name: "Next.js" },
+      { name: "React" },
+      { name: "Firebase" },
+      { name: "React Chart.js 2" },
+      { name: "TypeScript" },
+      { name: "PWA (Next PWA)" },
+    ],
+    image: "/projects/d-n-mentors.png",
+    live: "https://d-n-mentors.vercel.app/",
+    github: "https://github.com/NelsonMALGAS/D-N-Mentors.git",
+  },
+  {
+    num: "02",
+    category: "Fullstack",
+    title: "Project 2",
+    description:
+      "Foodies Delight is a web application built with React and Next.js, designed to cater to culinary enthusiasts who love exploring and sharing delicious recipes. Whether you're a seasoned chef or a home cook, Foodies Delight provides a platform to discover and contribute to a diverse collection of recipes.",
+    stack: [
+      { name: "HTML 5" },
+      { name: "CSS3" },
+      { name: "JavaScript" },
+      { name: "Tailwind CSS" },
+      { name: "Next.js" },
+      { name: "React" },
+      { name: "MUI (Material UI)" },
+      { name: "MongoDB" },
+    ],
+    image: "/projects/recipe.png",
+    live: "https://foodiesdelight.vercel.app/",
+    github: "https://github.com/NelsonMALGAS/Foodies_Delight_Recipe_App.git",
+  },
+  {
+    num: "03",
+    category: "Frontend",
+    title: "Project 3",
+    description:
+      "This is a simple web development blog created using React and Next.js. It features a homepage with a hero section and a list of featured blog posts. The blog is designed to showcase articles related to programming and web development.",
+    stack: [
+      { name: "Next.js" },
+      { name: "React" },
+      { name: "React DOM" },
+      { name: "Gray Matter" },
+      { name: "React Markdown" },
+      { name: "React Syntax Highlighter" },
+    ],
+    image: "/projects/blog.png",
+    live: "https://my-blog-ten-sandy.vercel.app/",
+    github: "https://github.com/NelsonMALGAS/my-blog.git",
+  },
+];

@@ -27,8 +27,8 @@ const Photo = () => {
             priority
             quality={100}
             alt="logo"
+            fill
             className="object-cover rounded-full"
-            layout="fill" // Ensures the image covers the container
           />
         </motion.div>
 

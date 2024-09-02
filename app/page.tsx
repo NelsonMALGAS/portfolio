@@ -4,8 +4,22 @@ import Socials from "@/components/Socials";
 import Stats from "@/components/Stats";
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
+import { saveAs} from "file-saver"
 
 const Home = () => {
+
+  const handleDownloadResume = () => {
+  
+    const resumeUrl = "/resume.pdf"; 
+  
+    fetch(resumeUrl)
+      .then(response => response.blob())
+      .then(blob => {
+        saveAs(blob, "Nelson_Malgas'_CV.pdf");
+      })
+      .catch(err => console.error("Download failed:", err));
+  };
+  
   return (
     <section className="h-full">
       <div className="container mx-auto">
@@ -25,7 +39,7 @@ const Home = () => {
               JavaScript frameworks and libraries.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button variant="outline" className="upeercase items-center gap-2 hover:text-white">
+              <Button variant="outline" className="upeercase items-center gap-2 hover:text-white" onClick={handleDownloadResume}>
                 <span>Download CV</span>
                 <FiDownload className="text-xl"/>
               </Button>
