@@ -9,6 +9,7 @@ Welcome to my portfolio project! This application showcases my skills and projec
 - **Next.js**: A React framework for building fast, scalable web applications.
 - **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
 - **TypeScript**: A strongly typed programming language that builds on JavaScript.
+- **Framer-motion**: An animation library
 
 ## Features
 
@@ -44,8 +45,8 @@ To set up the project locally, follow these steps:
 
 ## Customization
 
-- **Add Projects**: Update the `data/projects.json` file to include new projects with their respective details.
-- **Update Skills**: Modify the `data/skills.json` file to showcase your expertise.
+- **Add Projects**: Update the `data/projects.ts` file to include new projects with their respective details.
+- **Update Skills**: Modify the `data/services.ts` file to showcase your expertise.
 - **Branding**: Customize the colors and typography in the `tailwind.config.js` file to reflect your personal brand.
 
 ## Deployment
