@@ -40,7 +40,7 @@ To set up the project locally, follow these steps:
    npm run dev
    ```
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
+5. Open [Live Demo](https://portfolio-blue-mu-82.vercel.app/) in your browser to view the application.
 
 ## Customization
 
