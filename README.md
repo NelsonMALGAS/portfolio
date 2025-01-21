@@ -27,7 +27,7 @@ To set up the project locally, follow these steps:
 
 2. Navigate to the project directory:
    ```bash
-   cd portfolio-project
+   cd portfolio
    ```
 
 3. Install dependencies:
