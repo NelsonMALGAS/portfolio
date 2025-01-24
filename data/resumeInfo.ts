@@ -4,7 +4,7 @@
 const about = {
     title: "About me",
     description:
-      "fhgeruihreghhgrrih fhgeruihreghhgrrih fhgeruihreghhgrrih fhgeruihreghhgrrih",
+      "I'm Nelson Zongezile Malgas, a passionate JavaScript Software Engineer.",
     info: [
       { fieldName: "Name", fieldValue: "Nelson Zongezile Malgas" },
       { fieldName: "Phone", fieldValue: "(062) 750 0236" },
@@ -37,7 +37,7 @@ const about = {
   const experience = {
     icon: "",
     title: "My Experience",
-    description: "fhgeruihreghhgrrih fhgeruihreghhgrrih fhgeruihreghhgrrih",
+    description: "Throughout my career, I have had the privilege of working with dynamic teams and organizations, sharing my passion for coding, and empowering individuals to achieve their full potential in technology. Below are some of the highlights of my journey so far.",
     items: [
       {
         company: "CodeSpace Academy",
@@ -65,7 +65,7 @@ const about = {
   const education = {
     icon: "",
     title: "My Education",
-    description: "fhgeruihreghhgrrih fhgeruihreghhgrrih fhgeruihreghhgrrih",
+    description: "My educational journey reflects my dedication to continuous learning and professional growth in software development. From immersive bootcamps to specialized training programs, I’ve gained in-depth knowledge and practical skills to excel in the dynamic field of technology. Below are the key milestones of my educational path.",
     items: [
       {
         institution: "CodeSpace Academy",
