@@ -6,6 +6,7 @@ import {
   FaReact,
   FaFigma,
   FaNodeJs,
+  FaGithub
 } from "react-icons/fa";
 import {
   SiTailwindcss,
@@ -15,6 +16,7 @@ import {
   SiMongodb,
   SiMaterialdesign,
 } from "react-icons/si";
+import { TbBrandVite } from "react-icons/tb"
 import {
   Tabs,
   TabsContent,
@@ -82,6 +84,14 @@ const skills = {
     {
       icon: <FaNodeJs />,
       name: "Node.JS",
+    },
+    {
+      icon: <FaGithub />,
+      name: "Github",
+    },
+    {
+      icon: <TbBrandVite />,
+      name: "Vite",
     },
   ],
 };
