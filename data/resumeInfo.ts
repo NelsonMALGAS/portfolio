@@ -19,7 +19,7 @@ const about = {
       },
       {
         fieldName: "Portfolio",
-        fieldValue: "Portfolio link",
+        fieldValue: "https://github.com/NelsonMALGAS",
       },
       {
         fieldName: "Freelance",
@@ -45,20 +45,11 @@ const about = {
         duration: "June 2024 - Present",
       },
       {
-        company: "CodeSpace Academy",
-        position: "Code Coach",
-        duration: "June 2024 - Present",
+        company: "Sun International",
+        position: "Casino Dealer",
+        duration: "April 2017 - April 2018",
       },
-      {
-        company: "CodeSpace Academy",
-        position: "Code Coach",
-        duration: "June 2024 - Present",
-      },
-      {
-        company: "CodeSpace Academy",
-        position: "Code Coach",
-        duration: "June 2024 - Present",
-      },
+    
     ],
   };
   

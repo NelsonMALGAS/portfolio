@@ -33,7 +33,7 @@ import { about, education, experience } from "@/data/resumeInfo";
 
 const skills = {
   title: "My Skills",
-  description: "fhgeruihreghhgrrih fhgeruihreghhgrrih fhgeruihreghhgrrih",
+  description: "I specialize in modern web development, combining skills in front-end technologies like HTML, CSS, JavaScript, and frameworks like React and Next.js, with back-end expertise in Node.js, Firebase, and MongoDB. With experience in design tools like Figma and styling libraries like Tailwind CSS, I create responsive, user-friendly, and visually appealing web applications.",
   skillList: [
     {
       icon: <FaHtml5 />,

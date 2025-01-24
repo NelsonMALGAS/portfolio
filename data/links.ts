@@ -17,10 +17,6 @@ interface Link {
       path: "/work"
     },
     {
-      name: "projects",
-      path: "/projects"
-    },
-    {
       name: "resume",
       path: "/resume"
     },
