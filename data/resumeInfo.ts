@@ -42,7 +42,7 @@ const about = {
       {
         company: "CodeSpace Academy",
         position: "Code Coach",
-        duration: "June 2024 - Present",
+        duration: "June 2024 - February 2025",
       },
       {
         company: "Sun International",
