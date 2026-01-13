@@ -40,6 +40,11 @@ const about = {
     description: "Throughout my career, I have had the privilege of working with dynamic teams and organizations, sharing my passion for coding, and empowering individuals to achieve their full potential in technology. Below are some of the highlights of my journey so far.",
     items: [
       {
+        company: "Synatic AI",
+        position: "Fullstack Software Engineer",
+        duration: "June 2025 - December 2025",
+      },
+     {
         company: "CodeSpace Academy",
         position: "Code Coach",
         duration: "June 2024 - February 2025",
