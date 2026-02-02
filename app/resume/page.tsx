@@ -15,6 +15,7 @@ import {
   SiFirebase,
   SiMongodb,
   SiMaterialdesign,
+  SiSentry,
 } from "react-icons/si";
 import { TbBrandVite } from "react-icons/tb"
 import {
@@ -93,6 +94,10 @@ const skills = {
       icon: <TbBrandVite />,
       name: "Vite",
     },
+    {
+      icon: <SiSentry />,
+      name: "Sentry",
+    }
   ],
 };
 
@@ -206,28 +211,38 @@ const Resume = () => {
             </TabsContent>
             <TabsContent
               value="about"
-              className="w-full text-center xl:text-left"
+              className="w-full flex justify-center xl:justify-start"
             >
-              <div className="flex flex-col gap-[30px]">
-                <h3 className="text-4xl font-bold">{about.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+              <div className="w-full max-w-3xl rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 p-8 xl:p-10 shadow-xl">
+                {/* Title */}
+                <h3 className="text-4xl font-bold tracking-tight mb-4">
+                  {about.title}
+                </h3>
+
+                {/* Description */}
+                <p className="text-white/70 leading-relaxed mb-10 max-w-2xl">
                   {about.description}
                 </p>
-                <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
-                  {about.info.map((item, index) => {
-                    return (
-                      <li
-                        key={index}
-                        className="flex items-center justify-center xl:justify-start gap-4"
-                      >
-                        <span className="text-white/60">{item.fieldName}</span>
-                        <span className="text-xl">{item.fieldValue}</span>
-                      </li>
-                    );
-                  })}
+
+                {/* Info Grid */}
+                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-6">
+                  {about.info.map((item, index) => (
+                    <li
+                      key={index}
+                      className="flex flex-col gap-1 rounded-lg p-4 bg-white/5 hover:bg-white/10 transition-colors"
+                    >
+                      <span className="text-sm uppercase tracking-wider text-white/50">
+                        {item.fieldName}
+                      </span>
+                      <span className="text-lg font-medium text-white">
+                        {item.fieldValue}
+                      </span>
+                    </li>
+                  ))}
                 </ul>
               </div>
             </TabsContent>
+
           </div>
         </Tabs>
       </div>

@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { Button } from "./ui/button";
 
-// Components
 import Navbar from "./Navbar";
 import MobileNav from "./MobileNav";
 
@@ -18,14 +17,14 @@ const Header = () => {
         <div className="hidden xl:flex items-center gap-8">
           <Navbar />
           <Link href="/contact">
-           <Button>Hire Me</Button>
+            <Button>Hire Me</Button>
           </Link>
         </div>
 
         {/* mobile Nav */}
 
         <div className="xl:hidden">
-          <MobileNav/>
+          <MobileNav />
         </div>
       </div>
     </header>
